@@ -3,15 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="form.css">
+    <title>Contact page using html and css</title>
+    <link rel="stylesheet" href="form1.css">
+    <script src="https://kit.fontawesome.com/aac180a08f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
-        <form action="">
-            <input type="text">Name
-        </form>
-    </div>
-    
+    <section>
+        <div class="container">
+            <div class="contactInfo">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        <span>2912 meadowbrook road <br>
+                        los angeles ca</span>
+                    </li>
+                    <li><span><i class="fa-solid fa-envelope"></i></span>
+                    <span>lorem@gmail.com</span></li>
+                    <li>
+                        <span><i class="fa-solid fa-phone-volume"></i></span>
+                        <span>98687565778o</span>
+                    </li>
+                </ul>
+            </div>
+                <div class="contactForm">
+                    <h2>Send a Message</h2>
+                    <div class="formbox">
+                        <div class="inputbox">
+                            <input type="text" required>
+                            <span>First Name</span>
+                        </div>
+                        <div class="inutbox">
+                            <input type="text" required>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inutbox">
+                            <input type="email" required>
+                            <span>Email id</span>
+                        </div>
+                        <div class="inutbox">
+                            <input type="number" required>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div class="inputbox i1">
+                            <textarea name="" id="" cols="30" rows="2" required></textarea>
+                            <span>Write your meassage here....</span>
+                        </div>
+                        <div class="inputbox submit">
+                            <input type="submit">
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
 </body>
 </html>
